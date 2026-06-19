@@ -1,0 +1,105 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Custom visual animations used throughout the CattleGuard AI experience */
+
+@keyframes sweep {
+  0% {
+    left: 2%;
+  }
+  50% {
+    left: 98%;
+  }
+  100% {
+    left: 2%;
+  }
+}
+
+@keyframes vertical-shimmer {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-horizontal-sweep {
+  animation: sweep 6s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  animation: vertical-shimmer 2.2s linear infinite;
+}
+
+/* Custom veterinary print styling to format pristine PDF summaries */
+@media print {
+  html, body, #root, .min-h-screen, .flex-1, main {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  body {
+    color: black !important;
+    font-size: 11pt !important;
+  }
+
+  header, aside, footer, .print\:hidden, button {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Expand full columns */
+  .grid {
+    display: block !important;
+  }
+
+  .print\:col-span-12 {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .shadow-md, .shadow-sm {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+}
