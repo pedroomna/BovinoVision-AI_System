@@ -131,9 +131,7 @@ sudo journalctl -u bovinovision -f
 - Sinta-se à vontade para abrir issues no repositório com bugs, melhorias ou dúvidas.
 - Para desenvolvimento, crie branches com nomes descritivos e abra PRs para `main`.
 
-**Contatos / notas finais**
-- Este projeto é um protótipo; antes de colocar em produção, revise credenciais, políticas de segurança e rotinas de backup.
-- Se quiser, eu posso: gerar a chave SSH de deploy localmente e mostrar a pública, ou gerar instruções específicas para provedores (Render, Railway, etc.).
+Pedro Omna
 
 ---
 Arquivo gerado automaticamente com instruções abrangentes para deploy e execução local.
