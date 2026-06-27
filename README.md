@@ -8,14 +8,121 @@ Bem-vindo ao repositório do BovinoVision. Este README descreve de forma complet
 
 ## Protótipo das telas
 
-Uma pré-visualização estática do fluxo visual do sistema está disponível em:
-- [Página do protótipo](https://pedroomna.github.io/BovinoVision-AI_System/)
+A seguir as capturas principais do protótipo. Cada imagem é exibida diretamente com a descrição abaixo.
 
-Também é possível abrir a versão local em seu computador com:
-```bash
-cd "C:\Users\Pedro\Downloads\BovinoVision AI-SystemM"
-start docs\index.html
-```
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(1).png" alt="Login - tema escuro" width="900">
+</p>
+
+**Tela de login (tema escuro):** Entrada do usuário com imagem de destaque.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(2).png" alt="Histórico - tema escuro" width="900">
+</p>
+
+**Histórico de avaliações:** Filtros, busca e listagem de animais.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(3).png" alt="Perfil do Usuário" width="900">
+</p>
+
+**Página de perfil:** Informações do usuário e configurações de conta.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(4).png" alt="Configurações (modal)" width="900">
+</p>
+
+**Modal de parâmetros:** Calibração, notificações e integração SMTP.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(5).png" alt="Chat de Suporte" width="900">
+</p>
+
+**Suporte técnico:** Assistente virtual integrado para dúvidas e diagnósticos.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(6).png" alt="Nova Avaliação - Loading IA" width="900">
+</p>
+
+**Nova Avaliação (processando IA):** Início do processamento computacional.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(7).png" alt="Nova Avaliação - Upload e Detecção" width="900">
+</p>
+
+**Upload e Detecção:** Foto carregada e detecção automática da região traseira.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(8).png" alt="Upload Manual" width="900">
+</p>
+
+**Upload Manual:** Área para carregar fotos (JPEG/PNG) ou planilhas de controle.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(9).png" alt="Histórico - lista clara" width="900">
+</p>
+
+**Histórico (tema claro):** Versão clara do histórico com filtros e resultados.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(10).png" alt="Listagem de Avaliações" width="900">
+</p>
+
+**Listagem de Avaliações:** Miniaturas, informações de peso, ECC e veredito.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(11).png" alt="Resultado da Análise" width="900">
+</p>
+
+**Resultado da Análise:** Visualização com marcações e métricas extraídas (apto/abate).
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(12).png" alt="Painel - Resumo do Rebanho" width="900">
+</p>
+
+**Painel - Resumo do Rebanho:** Métricas agregadas e evolução do ECC por mês.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(13).png" alt="Criar Conta" width="900">
+</p>
+
+**Criar Conta:** Formulário para cadastrar novo usuário.
+
+---
+
+<p align="center">
+  <img src="Protótipo%20das%20telas/Image%20(14).png" alt="Login - tema claro" width="900">
+</p>
+
+**Tela de login (tema claro):** Alternativa visual da página de entrada.
+
+---
+
+Se quiser trocar a ordem, reduzir o tamanho das imagens ou manter também o link externo, me diga qual opção prefere.
 
 **Estrutura do Projeto (resumo)**:
 - `src/` — código cliente React (componentes, estilos, assets).
