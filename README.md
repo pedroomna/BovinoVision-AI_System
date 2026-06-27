@@ -249,8 +249,7 @@ sudo journalctl -u bovinovision -f
 - Sinta-se à vontade para abrir issues no repositório com bugs, melhorias ou dúvidas.
 - Para desenvolvimento, crie branches com nomes descritivos e abra PRs para `main`.
 
-
-##Pedro Omna
+Pedro Omna
 =======
 ---
 Arquivo gerado automaticamente com instruções abrangentes para deploy e execução local.
