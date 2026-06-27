@@ -250,7 +250,7 @@ sudo journalctl -u bovinovision -f
 - Para desenvolvimento, crie branches com nomes descritivos e abra PRs para `main`.
 
 
-Pedro Omna
+##Pedro Omna
 =======
 ---
 Arquivo gerado automaticamente com instruções abrangentes para deploy e execução local.
