@@ -6,6 +6,17 @@ Bem-vindo ao repositório do BovinoVision. Este README descreve de forma complet
 - **Propósito**: Ferramenta web para avaliar condição corporal de bovinos, com interface React + backend Node/Express.
 - **Arquitetura**: SPA React (Vite) servido por um servidor Node que também implementa rotas de API e integrações (Firebase Admin, Supabase, serviços de email).
 
+## Protótipo das telas
+
+Uma pré-visualização estática do fluxo visual do sistema está disponível em:
+- [Página do protótipo](https://pedroomna.github.io/BovinoVision-AI_System/)
+
+Também é possível abrir a versão local em seu computador com:
+```bash
+cd "C:\Users\Pedro\Downloads\BovinoVision AI-SystemM"
+start docs\index.html
+```
+
 **Estrutura do Projeto (resumo)**:
 - `src/` — código cliente React (componentes, estilos, assets).
 - `server.ts` — servidor Node/Express (entry server para dev e build server.cjs para produção).
