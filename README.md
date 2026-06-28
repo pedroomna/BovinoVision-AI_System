@@ -251,4 +251,5 @@ sudo journalctl -u bovinovision -f
 
 ## Desenvolvimento de App
 * **Pedro Omna**
+  
 Arquivo gerado automaticamente com instruções abrangentes para deploy e execução local.
