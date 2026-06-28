@@ -249,9 +249,6 @@ sudo journalctl -u bovinovision -f
 - Sinta-se à vontade para abrir issues no repositório com bugs, melhorias ou dúvidas.
 - Para desenvolvimento, crie branches com nomes descritivos e abra PRs para `main`.
 
-## Autores
-
-* **Ludivino José Da Silva**
-* **Lucas Teixeira**
+## Desenvolvimento de App
 * **Pedro Omna**
 Arquivo gerado automaticamente com instruções abrangentes para deploy e execução local.
